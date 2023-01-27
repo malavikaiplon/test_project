@@ -1,1 +1,65 @@
-[]
+[
+    {
+        "id": "56849dbec63d85ce",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3d4df336db4f76c4",
+        "type": "inject",
+        "z": "56849dbec63d85ce",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "local_install",
+        "payloadType": "str",
+        "x": 190,
+        "y": 140,
+        "wires": [
+            [
+                "28194bc8fc3308fb"
+            ]
+        ]
+    },
+    {
+        "id": "28194bc8fc3308fb",
+        "type": "debug",
+        "z": "56849dbec63d85ce",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1a86e7660a6588cf",
+        "type": "comment",
+        "z": "56849dbec63d85ce",
+        "name": "local install root folder naming local",
+        "info": "",
+        "x": 520,
+        "y": 220,
+        "wires": []
+    }
+]
