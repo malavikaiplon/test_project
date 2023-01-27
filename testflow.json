@@ -1,1 +1,55 @@
-[]
+[
+    {
+        "id": "f33aa2e64442d6a0",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "295cf00220ac711e",
+        "type": "inject",
+        "z": "f33aa2e64442d6a0",
+        "name": "testfilr.json",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 160,
+        "y": 100,
+        "wires": [
+            [
+                "50fd89a4f4078e6b"
+            ]
+        ]
+    },
+    {
+        "id": "50fd89a4f4078e6b",
+        "type": "debug",
+        "z": "f33aa2e64442d6a0",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 100,
+        "wires": []
+    }
+]
